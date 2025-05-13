@@ -620,6 +620,9 @@ header ul a{
     color: #727fde;
     font-size: 30px;
     margin-right: 10px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
 }
  
 
@@ -627,6 +630,12 @@ header ul a{
     color: white;
     margin-top: 40px;
 }
+
+.social-icons{
+    display: flex;
+    flex-direction: row;
+}
+
 
 .contact-box p{
     max-width: 400px;
